@@ -451,6 +451,7 @@ list-style: none;border: 1px solid rgba(175, 177, 184, 1);
 .list-qualiti:hover,
 .list-qualiti:focus{
   fill: var(--color-site);
+  cursor: pointer;
 }
 .list-qualiti:hover,
 .list-qualiti:focus {
@@ -459,3 +460,77 @@ list-style: none;border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px 
   
 }
+.social-list-link-footer {
+  fill: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color:rgba(255, 255, 255, 0.1);
+}
+
+/**end**/
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--color-site);
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  fill: #ffffff;
+}
+.social-list-item-footer:not(:last-child) {
+  margin-right: 10px;
+}
+.title-css-footer{
+  font-family:Roboto ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+   color: var(--color-btn-hero);
+   line-height: 1.14;
+   margin-top: 12px;
+   margin-bottom: 20px;
+
+  
+    
+   
+
+}
+.scial-list-footer{ 
+display: flex;
+
+list-style: none;
+}
+
+
+  .conteiner-footer{ 
+    display: flex;
+  }
+
+  .conteiner-list-link{
+    margin-right: 70px;
+ 
+  }
+      .margin-iteam:hover,
+       .margin-iteam:focus{
+         cursor: pointer;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+       }
+       .mail-header{
+        width:16px;
+          height: 12px;
+       }
+             .mail-tell:focus,
+             .mail-tell:hover{
+               fill: #2196f3;
+             }
+              .mail-tell-header:focus,
+               .mail-tell-header:hover {
+                fill: #2196f3;}
+                         .mail-tell-header{
+                           color:var(--color-text);
+                         }
