@@ -91,6 +91,7 @@ body {
 .mail-tell:hover,
 .mail-tell:focus {
   color: var(--color-site);
+  fill: #2196f3;
 }
 .list-it{
     display: flex;
@@ -213,6 +214,7 @@ letter-spacing: 0.06em;
 }
 
 .project-text {
+  font-family: Roboto;
   letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 16px;
@@ -306,6 +308,11 @@ img {
 .projects-title {
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  font-style: normal;
+font-weight: 700;
+font-family: Roboto;
+font-size: 18px;
+line-height: 2;
 }
 
 .hero-conteiner {
@@ -438,7 +445,6 @@ img {
    background-size: cover;
    
 }
-.group{margin-bottom: 30px;}
 
 .list-qualiti:not(:last-child)
  {
@@ -459,10 +465,9 @@ img {
       align-items: center;
 width: 170px;
   height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
-
-
-
 
 
 .list-qualities-link{
@@ -515,11 +520,7 @@ width: 170px;
    
 }
 
-.conteiner-list {
-  
- 
 
-}
 .scial-list-footer{ 
 display: flex;
 align-items: baseline;
@@ -557,24 +558,19 @@ list-style: none;
           height: 12px;
           margin-right: 10px;
        }
-             .tell-header {
+         .tell-header {
                width: 10px;
                height: 16px;
                margin-right: 10px;}
-  .mail-tell:hover{
- fill: #2196f3;
- }
- .mail-tell-header:focus,
- .mail-tell-header:hover {
-  fill: #2196f3;
-}
+  
+ 
  .mail-tell-header{
      color:var(--color-text);
              }
 .grooup-list{
-  background: #F5F4FA;
+
+    background: #F5F4FA;
     border-radius: 4px;
-display: flex;
     width: 270px;
     height: 120px;
 margin-bottom: 30px;
@@ -582,6 +578,10 @@ margin-bottom: 30px;
 .group{
   width: 70px;
   height: 70px;
-     
-margin: auto;
+}
+
+  .grooup-list{  
+display: flex;
+align-items: center;
+justify-content: center;
 }
